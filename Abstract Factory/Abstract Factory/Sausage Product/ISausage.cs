@@ -1,6 +1,6 @@
 ﻿namespace Abstract_Factory
 {
-    public interface IAbstractProductSausage
+    public interface ISausage
     {
 
     }

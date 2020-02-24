@@ -46,11 +46,11 @@
     <Compile Include="Sandwich Product\ColdSandwich.cs" />
     <Compile Include="Sausage Product\ColdSausage.cs" />
     <Compile Include="Sausage Product\HotSausage.cs" />
-    <Compile Include="Sausage Product\IAbstractProductSausage.cs" />
+    <Compile Include="Sausage Product\ISausage.cs" />
     <Compile Include="Concrete Factories\Cold.cs" />
     <Compile Include="Sandwich Product\HotSandwich.cs" />
     <Compile Include="IFoodAbstractFactory.cs" />
-    <Compile Include="Sandwich Product\IAbstractProductSandwich.cs" />
+    <Compile Include="Sandwich Product\ISandwich.cs" />
     <Compile Include="Concrete Factories\Hot.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

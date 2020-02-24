@@ -2,12 +2,12 @@
 {
     public class Hot : IFoodAbstractFactory
     {
-        public IAbstractProductSandwich CreateProductSandwich()
+        public ISandwich CreateProductSandwich()
         {
             return new HotSandwich();
         }
 
-        public IAbstractProductSausage CreateProductSausage()
+        public ISausage CreateProductSausage()
         {
             return new HotSausage();
         }

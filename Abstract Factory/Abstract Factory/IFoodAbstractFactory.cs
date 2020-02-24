@@ -2,7 +2,7 @@
 {
     interface IFoodAbstractFactory
     {
-        IAbstractProductSandwich CreateProductSandwich();
-        IAbstractProductSausage CreateProductSausage();
+        ISandwich CreateProductSandwich();
+        ISausage CreateProductSausage();
     }
 }
