@@ -1,7 +1,6 @@
 ﻿namespace Abstract_Factory
 {
-    public class CheeseConcreteFactory
+    public interface IAbstractProductCold
     {
-
     }
 }
