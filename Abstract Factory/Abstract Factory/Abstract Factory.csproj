@@ -43,13 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cheese\Cheese Products\CheddarConcreteProduct.cs" />
-    <Compile Include="Cheese\CheeseConcreteFactory.cs" />
-    <Compile Include="Cheese\Cheese Products\EdamConcreteProduct.cs" />
-    <Compile Include="Meat\Meat Products\ChickenConcreteProduct.cs" />
-    <Compile Include="FoodAbstractFactory.cs" />
-    <Compile Include="Meat\Meat Products\LambConcreteProduct.cs" />
-    <Compile Include="Meat\MeatConcreteFactory.cs" />
+    <Compile Include="Cold Version\ColdSandwich.cs" />
+    <Compile Include="Cold Version\ColdSausage.cs" />
+    <Compile Include="Hot Version\HotSausage.cs" />
+    <Compile Include="Hot Version\IAbstractProductHot.cs" />
+    <Compile Include="Concrete Factories\Sausage.cs" />
+    <Compile Include="Hot Version\HotSandwich.cs" />
+    <Compile Include="IFoodAbstractFactory.cs" />
+    <Compile Include="Cold Version\IAbstractProductCold.cs" />
+    <Compile Include="Concrete Factories\Sandwich.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tutorial.cs" />
