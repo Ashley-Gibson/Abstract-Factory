@@ -1,6 +1,6 @@
 ﻿namespace Abstract_Factory
 {
-    public class ColdSandwich : IAbstractProductSandwich
+    public class ColdSandwich : ISandwich
     {
 
     }

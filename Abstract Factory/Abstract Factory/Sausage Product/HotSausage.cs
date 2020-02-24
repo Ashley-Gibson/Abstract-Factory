@@ -1,6 +1,6 @@
 ﻿namespace Abstract_Factory
 {
-    public class HotSausage : IAbstractProductSausage
+    public class HotSausage : ISausage
     {
 
     }
