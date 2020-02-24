@@ -2,7 +2,7 @@
 {
     interface IFoodAbstractFactory
     {
-        IAbstractProductCold CreateProductCold();
-        IAbstractProductHot CreateProductHot();
+        IAbstractProductSandwich CreateProductSandwich();
+        IAbstractProductSausage CreateProductSausage();
     }
 }
