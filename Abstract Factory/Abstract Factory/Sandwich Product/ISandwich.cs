@@ -2,5 +2,6 @@
 {
     public interface ISandwich
     {
+        string Name();
     }
 }

@@ -2,6 +2,6 @@
 {
     public interface ISausage
     {
-
+        string Name();
     }
 }
