@@ -27,7 +27,7 @@ namespace Abstract_Factory
         }
     }
 
-    class Client
+    public class Client
     {
         private ISandwich sandwich;
         private ISausage sausage;
