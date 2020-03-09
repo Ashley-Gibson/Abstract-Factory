@@ -42,5 +42,37 @@ namespace Unit_Testing
             Assert.AreEqual(expectedSandwichName, actualSandwichName);
             Assert.AreEqual(expectedSausageName, actualSausageName);
         }
+
+        [TestMethod]
+        public void Test_CreateCold()
+        {
+            // Arrange
+            ISandwich expectedColdSandwichClass = new ColdSandwich();
+            ISausage expectedColdSausageClass = new ColdSausage();
+
+            // Act
+            ISandwich actualColdSandwichClass = coldConcreteFactory.CreateSandwich();
+            ISausage actualColdSausageClass = coldConcreteFactory.CreateSausage();            
+
+            // Assert
+            Assert.AreEqual(expectedColdSandwichClass.GetType(), actualColdSandwichClass.GetType());
+            Assert.AreEqual(expectedColdSausageClass.GetType(), actualColdSausageClass.GetType());
+        }
+
+        [TestMethod]
+        public void Test_CreateHot()
+        {
+            // Arrange
+            ISandwich expectedHotSandwichClass = new HotSandwich();
+            ISausage expectedHotSausageClass = new HotSausage();
+
+            // Act
+            ISandwich actualHotSandwichClass = hotConcreteFactory.CreateSandwich();
+            ISausage actualHotSausageClass = hotConcreteFactory.CreateSausage();
+
+            // Assert
+            Assert.AreEqual(expectedHotSandwichClass.GetType(), actualHotSandwichClass.GetType());
+            Assert.AreEqual(expectedHotSausageClass.GetType(), actualHotSausageClass.GetType());
+        }
     }
 }
