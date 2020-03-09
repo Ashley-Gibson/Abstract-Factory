@@ -11,23 +11,23 @@ namespace Abstract_Factory
             Client coldSausageClient;
             Client hotSausageClient;
 
-            Console.WriteLine("\n***** Cold Factory *****\n");
+            Console.WriteLine("\r\n------------ This is a Cold Factory ----------------");
             coldSandwichClient = new Client(new Cold());
             coldSausageClient = new Client(new Cold());
-            Console.WriteLine("Creating " + coldSandwichClient.GetCreatedSandwichName() + "\n");
-            Console.WriteLine("Creating " + coldSausageClient.GetCreatedSausageName() + "\n");
+            Console.WriteLine("\r\n Creating " + coldSandwichClient.GetCreatedSandwichName());
+            Console.WriteLine("\r\n Creating " + coldSausageClient.GetCreatedSausageName());
 
-            Console.WriteLine("\n***** This is a Hot Factory *****\n");
+            Console.WriteLine("\r\n\r\n------------ This is a Hot Factory ----------------");
             hotSandwichClient = new Client(new Hot());
             hotSausageClient = new Client(new Hot());
-            Console.WriteLine("Creating " + hotSandwichClient.GetCreatedSandwichName() + "\n");
-            Console.WriteLine("Creating " + hotSausageClient.GetCreatedSausageName() + "\n");
+            Console.WriteLine("\r\n Creating " + hotSandwichClient.GetCreatedSandwichName());
+            Console.WriteLine("\r\n Creating " + hotSausageClient.GetCreatedSausageName());
 
             Console.ReadLine();
         }
     }
 
-    class Client
+    public class Client
     {
         private ISandwich sandwich;
         private ISausage sausage;

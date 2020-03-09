@@ -1,6 +1,6 @@
 ﻿namespace Abstract_Factory
 {
-    interface IFoodAbstractFactory
+    public interface IFoodAbstractFactory
     {
         ISandwich CreateSandwich();
         ISausage CreateSausage();
